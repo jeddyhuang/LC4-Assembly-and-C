@@ -1,0 +1,7 @@
+clear
+reset
+as os os
+as test_trap_puts test_trap_puts
+ld os
+ld test_trap_puts
+break set END_PROGRAM

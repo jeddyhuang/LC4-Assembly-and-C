@@ -1,0 +1,6 @@
+reset
+as prime_test prime_test
+ld prime_test
+set PC 0
+set R0 x0019
+break set END

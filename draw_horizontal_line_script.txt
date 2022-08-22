@@ -1,0 +1,5 @@
+reset
+as draw_horizontal_line draw_horizontal_line
+ld draw_horizontal_line
+set PC 0
+break set END

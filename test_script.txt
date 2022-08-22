@@ -1,0 +1,8 @@
+reset
+as test test
+ld test
+set PC 0
+set R0 4
+set R1 -3
+set R2 17
+break set END

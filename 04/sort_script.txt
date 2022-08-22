@@ -1,0 +1,17 @@
+reset
+as sort sort
+ld sort
+set PC 0
+set x4000 10
+set x4001 7
+set x4002 6
+set x4003 2
+set x4004 5
+set x4005 4
+set x4006 1
+set x4007 8
+set x4008 9
+set x4009 3
+set R0 x4000
+set R1 10
+break set END

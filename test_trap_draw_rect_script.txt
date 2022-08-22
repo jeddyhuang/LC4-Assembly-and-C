@@ -1,0 +1,7 @@
+clear
+reset
+as os os
+as test_trap_draw_rect test_trap_draw_rect
+ld os
+ld test_trap_draw_rect
+break set END_PROGRAM

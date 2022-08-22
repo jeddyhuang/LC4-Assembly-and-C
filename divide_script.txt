@@ -1,0 +1,7 @@
+reset
+as divide divide
+ld divide
+set PC 0
+set R2 x0100
+set R3 2
+break set INFINITE_LOOP

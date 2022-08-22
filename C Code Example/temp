@@ -1,0 +1,11 @@
+
+complex.o : complex.c complex.h
+	clang -c complex.c
+
+test_complex.o : test_complex.c complex.h
+	clang -c test_complex.c
+
+test_complex : test_complex.o complex.o
+	clang -o test_complex test_complex.o complex.o
+
+all : test_complex
